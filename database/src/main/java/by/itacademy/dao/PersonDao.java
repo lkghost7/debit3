@@ -1,53 +1,57 @@
 package by.itacademy.dao;
 
-import by.itacademy.model.SystemUser;
+import by.itacademy.model.Person;
 import org.hibernate.Session;
 
 import java.io.Serializable;
+import java.util.List;
 
 import static by.itacademy.connection.ConnectionPool.getConnection;
 
-public class SystemUserDao {
+public class PersonDao {
     private static final Object LOCK = new Object();
-    private static SystemUserDao INSTANCE = null;
+    private static PersonDao INSTANCE = null;
 
-    public static SystemUserDao getInstance() {
+    public static PersonDao getInstance() {
         if (INSTANCE == null) {
             synchronized (LOCK) {
                 if (INSTANCE == null) {
-                    INSTANCE = new SystemUserDao();
+                    INSTANCE = new PersonDao();
                 }
             }
         }
         return INSTANCE;
     }
 
-    public Long save(SystemUser systemUser) {
+    public Long save(Person person) {
         Session currentSession = getConnection();
         currentSession.beginTransaction();
-        Serializable id = currentSession.save(systemUser);
+        Serializable id = currentSession.save(person);
         currentSession.getTransaction().commit();
         currentSession.close();
         return (Long) id;
     }
 
-    public void delete(Long id) {
+    public Person findById(Long id) {
         Session session = getConnection();
         session.beginTransaction();
-        SystemUser systemUser = new SystemUser();
-        systemUser.setId(id);
-        systemUser.setEmail("del");
-        systemUser.setPasswordUser("del");
-        session.delete(systemUser);
+        Person person = session.get(Person.class, id);
+        session.close();
+        return person;
+    }
+
+    public void delete(Person person) {
+        Session session = getConnection();
+        session.beginTransaction();
+        session.delete(person);
         session.getTransaction().commit();
         session.close();
     }
 
-    public SystemUser findById(Long id) {
-        Session session = getConnection();
-        session.beginTransaction();
-        SystemUser mySystemUser = session.get(SystemUser.class, id);
-        session.close();
-        return mySystemUser;
+    public List<Person> findAll() {
+        Session currentSession = getConnection();
+        List<Person> personList = currentSession.createQuery("select c from Person c", Person.class).list();
+        currentSession.close();
+        return personList;
     }
 }

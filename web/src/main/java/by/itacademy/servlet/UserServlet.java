@@ -1,8 +1,8 @@
 package by.itacademy.servlet;
 
 
-import by.itacademy.dao.UserDao;
-import by.itacademy.model.SystemUser;
+import by.itacademy.dao.DebitorsDao;
+import by.itacademy.model.Debitor;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -16,14 +16,14 @@ import java.util.List;
 @WebServlet("/user")
 public class UserServlet extends HttpServlet {
 
-//    @Override
-//    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-//
-//        List<SystemUser> userList = UserDao.getInstance().findAll();
-//        req.setAttribute("users", userList);
-//
-//        getServletContext()
-//                .getRequestDispatcher("/WEB-INF/jsp/user.jsp")
-//                .forward(req, resp);
-//    }
+    @Override
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+
+        List<Debitor> debitorList = DebitorsDao.getInstance().findAll();
+        req.setAttribute("debitorList", debitorList);
+
+        getServletContext()
+                .getRequestDispatcher("/WEB-INF/jsp/user.jsp")
+                .forward(req, resp);
+    }
 }
