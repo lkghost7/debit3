@@ -1,13 +1,15 @@
 package by.itacademy.model;
 
-import lombok.*;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "privileges")
+@Table(name = "privilege")
 
 @NoArgsConstructor
 public class Privilege extends BaseEntity {
@@ -17,11 +19,16 @@ public class Privilege extends BaseEntity {
     private String namePrivilege;
 
     public Privilege(Long id) {
-        super(id);
+
     }
 
+    public Privilege(String namePrivilege) {
+        this.namePrivilege = namePrivilege;
+    }
+
+
     public Privilege(Long id, String namePrivilege) {
-        super(id);
+
         this.namePrivilege = namePrivilege;
     }
 
