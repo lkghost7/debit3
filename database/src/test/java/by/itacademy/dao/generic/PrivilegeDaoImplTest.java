@@ -7,6 +7,7 @@ import org.junit.Test;
 import java.util.List;
 
 public class PrivilegeDaoImplTest {
+
     private PrivilegeDaoImpl dao = new PrivilegeDaoImpl();
 
     @Test
@@ -42,7 +43,7 @@ public class PrivilegeDaoImplTest {
         Long id = dao.save(privilege);
         Privilege privilegeFromDb = dao.findById(id);
         Assert.assertEquals(privilege.getNamePrivilege(), privilegeFromDb.getNamePrivilege());
-        privilegeFromDb.setNamePrivilege("Executor");
+        privilegeFromDb.setNamePrivilege("Operator");
         dao.update(privilegeFromDb);
         Privilege privilegeAfterUpdate = dao.findById(id);
         Assert.assertEquals(privilegeFromDb.getNamePrivilege(), privilegeAfterUpdate.getNamePrivilege());

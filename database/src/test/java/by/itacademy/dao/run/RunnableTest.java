@@ -1,6 +1,7 @@
 package by.itacademy.dao.run;
 
 import by.itacademy.dao.*;
+import by.itacademy.dao.generic.SystemUserDaoImplTest;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 
@@ -14,7 +15,7 @@ import org.junit.runners.Suite;
         PersonDaoTest.class,
         RegistryContractsDaoTest.class,
         PrivilegeDaoImplTest.class,
-        SystemUserDaoTest.class,
+        SystemUserDaoImplTest.class,
 })
 public class RunnableTest {
 }
