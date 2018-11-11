@@ -1,7 +1,6 @@
 package by.itacademy.servlet;
 
 
-import by.itacademy.dao.DebitorsDao;
 import by.itacademy.model.Debitor;
 
 import javax.servlet.ServletException;
