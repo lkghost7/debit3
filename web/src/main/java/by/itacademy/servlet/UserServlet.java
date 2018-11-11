@@ -1,6 +1,7 @@
 package by.itacademy.servlet;
 
 
+import by.itacademy.dao.generic.DebitorDaoImpl;
 import by.itacademy.model.Debitor;
 
 import javax.servlet.ServletException;
@@ -18,7 +19,8 @@ public class UserServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-        List<Debitor> debitorList = DebitorsDao.getInstance().findAll();
+
+        List<Debitor> debitorList = DebitorDaoImpl.getDebitorDao().findAll();
         req.setAttribute("debitorList", debitorList);
 
         getServletContext()
