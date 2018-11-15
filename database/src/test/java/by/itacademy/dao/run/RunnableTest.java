@@ -9,13 +9,11 @@ import org.junit.runners.Suite;
 
 @RunWith(Suite.class)
 @Suite.SuiteClasses({
-
         CompanDaoImplTest.class,
         SystemUserDaoImplTest.class,
         PrivilegeDaoImplTest.class,
         DebitorDaoImplTest.class,
         CompanDaoImplTest.class
-
 })
 public class RunnableTest {
 }

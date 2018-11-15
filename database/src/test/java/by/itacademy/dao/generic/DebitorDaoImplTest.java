@@ -3,22 +3,24 @@ package by.itacademy.dao.generic;
 import by.itacademy.model.Debitor;
 import org.junit.Assert;
 import org.junit.Test;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;
 
 public class DebitorDaoImplTest {
 
-    private DebitorDaoImpl dao = new DebitorDaoImpl();
+    @Autowired
+    private DebitorDaoImpl dao;
 
     @Test
     public void saveTest() {
         Debitor debitor = new Debitor();
         debitor.setSubdivisions("Колядичи");
-        Long id = DebitorDaoImpl.getDebitorDao().save(debitor);
-        Debitor debitorFromDb = DebitorDaoImpl.getDebitorDao().findById(id);
+        Long id = dao.save(debitor);
+        Debitor debitorFromDb = dao.findById(id);
         Assert.assertEquals(debitor.getSubdivisions(), debitorFromDb.getSubdivisions());
-        DebitorDaoImpl.getDebitorDao().delete(debitor);
-        Debitor result = DebitorDaoImpl.getDebitorDao().findById(id);
+        dao.delete(debitor);
+        Debitor result = dao.findById(id);
         Assert.assertNull(result);
     }
 

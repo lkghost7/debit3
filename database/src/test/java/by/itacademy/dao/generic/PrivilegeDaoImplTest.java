@@ -3,22 +3,23 @@ package by.itacademy.dao.generic;
 import by.itacademy.model.Privilege;
 import org.junit.Assert;
 import org.junit.Test;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;
 
 public class PrivilegeDaoImplTest {
-
-    private PrivilegeDaoImpl dao = new PrivilegeDaoImpl();
+    @Autowired
+    private PrivilegeDaoImpl dao;
 
     @Test
     public void saveTest() {
         Privilege privilege = new Privilege();
         privilege.setNamePrivilege("Executor");
-        Long id = PrivilegeDaoImpl.getPrivilegeDao().save(privilege);
-        Privilege privilegeFromDb = PrivilegeDaoImpl.getPrivilegeDao().findById(id);
+        Long id = dao.save(privilege);
+        Privilege privilegeFromDb = dao.findById(id);
         Assert.assertEquals(privilege.getNamePrivilege(), privilegeFromDb.getNamePrivilege());
-        PrivilegeDaoImpl.getPrivilegeDao().delete(privilege);
-        Privilege result = PrivilegeDaoImpl.getPrivilegeDao().findById(id);
+        dao.delete(privilege);
+        Privilege result = dao.findById(id);
         Assert.assertNull(result);
     }
 

@@ -1,13 +1,9 @@
 package by.itacademy.dao.generic;
 
 import by.itacademy.model.SystemUser;
+import org.hibernate.SessionFactory;
+import org.springframework.stereotype.Repository;
 
+@Repository
 public class SystemUserDaoImpl extends BaseDaoImpl<SystemUser> implements SystemUserDao {
-
-    private static final SystemUserDaoImpl INSTANCE = new SystemUserDaoImpl();
-
-    public static SystemUserDaoImpl getSystemUserDao() {
-        return INSTANCE;
-    }
-
 }

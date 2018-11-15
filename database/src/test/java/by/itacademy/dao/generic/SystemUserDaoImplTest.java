@@ -3,12 +3,14 @@ package by.itacademy.dao.generic;
 import by.itacademy.model.SystemUser;
 import org.junit.Assert;
 import org.junit.Test;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;
 
 public class SystemUserDaoImplTest {
 
-    private SystemUserDaoImpl dao = new SystemUserDaoImpl();
+    @Autowired
+    private SystemUserDaoImpl dao;
 
     @Test
     public void saveTest() {
@@ -16,11 +18,11 @@ public class SystemUserDaoImplTest {
         systemUser.setNameUser("Admin");
         systemUser.setEmail("Email");
         systemUser.setPasswordUser("pass");
-        Long id = SystemUserDaoImpl.getSystemUserDao().save(systemUser);
-        SystemUser systemUserFromDb = SystemUserDaoImpl.getSystemUserDao().findById(id);
+        Long id = dao.save(systemUser);
+        SystemUser systemUserFromDb = dao.findById(id);
         Assert.assertEquals(systemUser.getNameUser(), systemUserFromDb.getNameUser());
-        SystemUserDaoImpl.getSystemUserDao().delete(systemUser);
-        SystemUser result = SystemUserDaoImpl.getSystemUserDao().findById(id);
+        dao.delete(systemUser);
+        SystemUser result = dao.findById(id);
         Assert.assertNull(result);
     }
 
