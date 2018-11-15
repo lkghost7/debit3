@@ -1,3 +1,5 @@
+<%@ page contentType="text/html; charset=UTF-8" language="java" %>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru">
 <head>
@@ -13,7 +15,7 @@
     <script type="text/javascript" src="../../resources/js/loader.js"></script>
     <script type="text/javascript" src="../../resources/js/ddsmoothmenu.js"></script>
     <script type="text/javascript" src="../../resources/js/cufon.js"></script>
-    <script type="text/javascript" src="../../resources/js/cufon-fonts.js"></script>
+    <%--<script type="text/javascript" src="../../resources/js/cufon-fonts.js"></script>--%>
     <script type="text/javascript" src="../../resources/js/cufon-settings.js"></script>
     <script type="text/javascript" src="../../resources/js/input.js"></script>
     <script type="text/javascript" src="../../resources/js/main.js"></script>
