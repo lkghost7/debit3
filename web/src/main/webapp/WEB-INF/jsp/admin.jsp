@@ -2,22 +2,22 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru">
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
-    <title>THEMELOCK.COM - FREE THEMES & TEMPLATES</title>
-    <link type="text/css" rel="stylesheet" href="css/all.css"/>
-    <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
-    <script type="text/javascript" src="js/loopedslider.js"></script>
-    <script type="text/javascript" src="js/looped-options.js"></script>
-    <script type="text/javascript" src="js/slideBlock.js"></script>
-    <script type="text/javascript" src="js/latte.js"></script>
-    <script type="text/javascript" src="js/jquery.roundabout.min.js"></script>
-    <script type="text/javascript" src="js/loader.js"></script>
-    <script type="text/javascript" src="js/ddsmoothmenu.js"></script>
-    <script type="text/javascript" src="js/cufon.js"></script>
-    <script type="text/javascript" src="js/cufon-fonts.js"></script>
-    <script type="text/javascript" src="js/cufon-settings.js"></script>
-    <script type="text/javascript" src="js/input.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
-    <!--[if lt IE 8]><link rel="stylesheet" href="css/ie.css" type="text/css" /><![endif]-->
+    <title>Debit2</title>
+    <link type="text/css" rel="stylesheet" href="../../resources/css/all.css"/>
+    <script type="text/javascript" src="../../resources/js/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="../../resources/js/loopedslider.js"></script>
+    <script type="text/javascript" src="../../resources/js/looped-options.js"></script>
+    <script type="text/javascript" src="../../resources/js/slideBlock.js"></script>
+    <script type="text/javascript" src="../../resources/js/latte.js"></script>
+    <script type="text/javascript" src="../../resources/js/jquery.roundabout.min.js"></script>
+    <script type="text/javascript" src="../../resources/js/loader.js"></script>
+    <script type="text/javascript" src="../../resources/js/ddsmoothmenu.js"></script>
+    <script type="text/javascript" src="../../resources/js/cufon.js"></script>
+    <script type="text/javascript" src="../../resources/js/cufon-fonts.js"></script>
+    <script type="text/javascript" src="../../resources/js/cufon-settings.js"></script>
+    <script type="text/javascript" src="../../resources/js/input.js"></script>
+    <script type="text/javascript" src="../../resources/js/main.js"></script>
+    <!--[if lt IE 8]><link rel="stylesheet" href="../../resources/css/ie.css" type="text/css" /><![endif]-->
 </head>
 <body>
 <!-- start header -->
@@ -25,7 +25,7 @@
     <div id="header">
         <div class="header-holder">
             <div class="wrap">
-                <h1 class="logo"><a href="index.html">Synoptic</a></h1>
+                <h1 class="logo"><a href="index.html">Дебитор ТЛЦ</a></h1>
                 <ul id="nav" class="ddsmoothmenu">
                     <li class="active"><a href="index.html" class="home">Home</a></li>
                     <li><a href="about.html"><span><em>About</em></span></a></li>
@@ -57,8 +57,8 @@
                             </li>
                         </ul>
                     </li>
-                    <li><a href="blog.html"><span><em>Blog</em></span></a></li>
-                    <li><a href="portfolio.html"><span><em>Portfolio</em></span></a></li>
+                    <li><a href="blog.html"><span><em>Блог</em></span></a></li>
+                    <li><a href="portfolio.html"><span><em>Портфолио</em></span></a></li>
                     <li><a href="market.html"><span><em>Market</em></span></a></li>
                     <li><a href="contacts.html"><span><em>Contacts</em></span></a></li>
                 </ul>
@@ -97,11 +97,11 @@
                 </ul>
                 <div class="container">
                     <ul class="slides">
-                        <li><a href="#"><img src="images/img.png" alt="image description" width="486" height="284" /></a></li>
-                        <li><a href="#"><img src="images/img.png" alt="image description" width="486" height="284" /></a></li>
-                        <li><a href="#"><img src="images/img.png" alt="image description" width="486" height="284" /></a></li>
-                        <li><a href="#"><img src="images/img.png" alt="image description" width="486" height="284" /></a></li>
-                        <li><a href="#"><img src="images/img.png" alt="image description" width="486" height="284" /></a></li>
+                        <li><a href="#"><img src="../../resources/images/img.png" alt="image description" width="486" height="284" /></a></li>
+                        <li><a href="#"><img src="../../resources/images/img.png" alt="image description" width="486" height="284" /></a></li>
+                        <li><a href="#"><img src="../../resources/images/img.png" alt="image description" width="486" height="284" /></a></li>
+                        <li><a href="#"><img src="../../resources/images/img.png" alt="image description" width="486" height="284" /></a></li>
+                        <li><a href="#"><img src="../../resources/images/img.png" alt="image description" width="486" height="284" /></a></li>
                     </ul>
                 </div>
                 <div class="stick">PSD template</div>
@@ -173,14 +173,14 @@
             <ul class="slides">
                 <li>
                     <div class="image">
-                        <img class="large" src="images/bg-image02.gif" alt="image description" width="275" height="307" />
+                        <img class="large" src="../../resources/images/bg-image02.gif" alt="image description" width="275" height="307" />
                     </div>
                     <div class="text-box">
                         <h2>Synoptic is premium PSD template!</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed condimentum turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultrices condimentum vestibulum. Phasellus dictum, dolor et gravida tempor, ante enim eleifend erat, id ullamcorper eros augue in metus. </p>
                         <p>Sed fringilla dui id ante volutpat ut pellentesque lacus semper. Duis laoreet congue consectetur. Aliquam volutpat scelerisque dui ac fringilla. Praesent et volutpat urna. Sed ipsum dolor, dapibus a ultrices a, pellentesque eget metus. Vestibulum eu nisl sed massa sodales mollis. </p>
                         <p>Morbi posuere, mauris at tempor semper, ligula sem scelerisque turpis, ac interdum orci urna sit amet enim. Morbi posuere ultricies dapibus. Nam eget turpis in mi consequat aliquet. Phasellus a felis libero, non aliquet lorem. Praesent accumsan magna nec ipsum euismod et tempus neque auctor.</p>
-                        <a href="#" class="more">Read more…</a>
+                        <a href="#" class="more">прочти1</a>
                     </div>
                 </li>
                 <li>
@@ -192,31 +192,31 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed condimentum turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultrices condimentum vestibulum. Phasellus dictum, dolor et gravida tempor, ante enim eleifend erat, id ullamcorper eros augue in metus. </p>
                         <p>Sed fringilla dui id ante volutpat ut pellentesque lacus semper. Duis laoreet congue consectetur. Aliquam volutpat scelerisque dui ac fringilla. Praesent et volutpat urna. Sed ipsum dolor, dapibus a ultrices a, pellentesque eget metus. Vestibulum eu nisl sed massa sodales mollis. </p>
                         <p>Morbi posuere, mauris at tempor semper, ligula sem scelerisque turpis, ac interdum orci urna sit amet enim. Morbi posuere ultricies dapibus. Nam eget turpis in mi consequat aliquet. Phasellus a felis libero, non aliquet lorem. Praesent accumsan magna nec ipsum euismod et tempus neque auctor.</p>
-                        <a href="#" class="more">Read more…</a>
+                        <a href="#" class="more">прочти2</a>
                     </div>
                 </li>
                 <li>
                     <div class="image-left">
-                        <img class="large" src="images/bg-image02.gif" alt="image description" width="275" height="307" />
+                        <img class="large" src="../../resources/images/bg-image02.gif" alt="image description" width="275" height="307" />
                     </div>
                     <div class="text-box">
                         <h2>Synoptic is premium PSD template!</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed condimentum turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultrices condimentum vestibulum. Phasellus dictum, dolor et gravida tempor, ante enim eleifend erat, id ullamcorper eros augue in metus. </p>
                         <p>Sed fringilla dui id ante volutpat ut pellentesque lacus semper. Duis laoreet congue consectetur. Aliquam volutpat scelerisque dui ac fringilla. Praesent et volutpat urna. Sed ipsum dolor, dapibus a ultrices a, pellentesque eget metus. Vestibulum eu nisl sed massa sodales mollis. </p>
                         <p>Morbi posuere, mauris at tempor semper, ligula sem scelerisque turpis, ac interdum orci urna sit amet enim. Morbi posuere ultricies dapibus. Nam eget turpis in mi consequat aliquet. Phasellus a felis libero, non aliquet lorem. Praesent accumsan magna nec ipsum euismod et tempus neque auctor.</p>
-                        <a href="#" class="more">Read more…</a>
+                        <a href="#" class="more">прочти3</a>
                     </div>
                 </li>
                 <li>
                     <div class="image">
-                        <img class="large" src="images/bg-image02.gif" alt="image description" width="275" height="307" />
+                        <img class="large" src="../../resources/images/bg-image02.gif" alt="image description" width="275" height="307" />
                     </div>
                     <div class="text-box">
                         <h2>Synoptic is premium PSD template!</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed condimentum turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultrices condimentum vestibulum. Phasellus dictum, dolor et gravida tempor, ante enim eleifend erat, id ullamcorper eros augue in metus. </p>
                         <p>Sed fringilla dui id ante volutpat ut pellentesque lacus semper. Duis laoreet congue consectetur. Aliquam volutpat scelerisque dui ac fringilla. Praesent et volutpat urna. Sed ipsum dolor, dapibus a ultrices a, pellentesque eget metus. Vestibulum eu nisl sed massa sodales mollis. </p>
                         <p>Morbi posuere, mauris at tempor semper, ligula sem scelerisque turpis, ac interdum orci urna sit amet enim. Morbi posuere ultricies dapibus. Nam eget turpis in mi consequat aliquet. Phasellus a felis libero, non aliquet lorem. Praesent accumsan magna nec ipsum euismod et tempus neque auctor.</p>
-                        <a href="#" class="more">Read more…</a>
+                        <a href="#" class="more">прочти4</a>
                     </div>
                 </li>
             </ul>
@@ -253,20 +253,20 @@
                 <span class="sub-title"><a href="#">Print</a> / <a href="#">Business Card</a></span>
                 <div class="product-holder">
                     <div class="image">
-                        <a href="#"><img class="large" src="images/bg-image03.jpg" alt="image description" width="180" height="91" /></a>
+                        <a href="#"><img class="large" src="../../resources/images/bg-image03.jpg" alt="image description" width="180" height="91" /></a>
                     </div>
                     <div class="wrap">
                         <span class="price">Price: $20.20</span>
                         <ul class="stars">
-                            <li><a href="#"><img src="images/star.gif" alt="image description" width="15" height="15" /></a></li>
-                            <li><a href="#"><img src="images/star.gif" alt="image description" width="15" height="15" /></a></li>
-                            <li><a href="#"><img src="images/star02.gif" alt="image description" width="15" height="15" /></a></li>
-                            <li><a href="#"><img src="images/star03.gif" alt="image description" width="15" height="15" /></a></li>
-                            <li><a href="#"><img src="images/star03.gif" alt="image description" width="15" height="15" /></a></li>
+                            <li><a href="#"><img src="../../resources/images/star.gif" alt="image description" width="15" height="15" /></a></li>
+                            <li><a href="#"><img src="../../resources/images/star.gif" alt="image description" width="15" height="15" /></a></li>
+                            <li><a href="#"><img src="../../resources/images/star02.gif" alt="image description" width="15" height="15" /></a></li>
+                            <li><a href="#"><img src="../../resources/images/star03.gif" alt="image description" width="15" height="15" /></a></li>
+                            <li><a href="#"><img src="../../resources/images/star03.gif" alt="image description" width="15" height="15" /></a></li>
                         </ul>
                     </div>
                     <div class="stick">
-                        <img src="images/stick-green.png" alt="image description" width="82" height="82" />
+                        <img src="../../resources/images/stick-green.png" alt="image description" width="82" height="82" />
                     </div>
                     <div class="hotspot"></div>
                 </div>
@@ -275,20 +275,20 @@
             <span class="sub-title"><a href="#">Print</a> / <a href="#">Business Card</a></span>
             <div class="product-holder">
                 <div class="image">
-                    <a href="#"><img class="large" src="images/bg-image03.jpg" alt="image description" width="180" height="91" /></a>
+                    <a href="#"><img class="large" src="../../resources/images/bg-image03.jpg" alt="image description" width="180" height="91" /></a>
                 </div>
                 <div class="wrap">
                     <span class="price">Price: $8.80</span>
                     <ul class="stars">
-                        <li><a href="#"><img src="images/star.gif" alt="image description" width="15" height="15" /></a></li>
-                        <li><a href="#"><img src="images/star.gif" alt="image description" width="15" height="15" /></a></li>
-                        <li><a href="#"><img src="images/star02.gif" alt="image description" width="15" height="15" /></a></li>
-                        <li><a href="#"><img src="images/star03.gif" alt="image description" width="15" height="15" /></a></li>
-                        <li><a href="#"><img src="images/star03.gif" alt="image description" width="15" height="15" /></a></li>
+                        <li><a href="#"><img src="../../resources/images/star.gif" alt="image description" width="15" height="15" /></a></li>
+                        <li><a href="#"><img src="../../resources/images/star.gif" alt="image description" width="15" height="15" /></a></li>
+                        <li><a href="#"><img src="../../resources/images/star02.gif" alt="image description" width="15" height="15" /></a></li>
+                        <li><a href="#"><img src="../../resources/images/star03.gif" alt="image description" width="15" height="15" /></a></li>
+                        <li><a href="#"><img src="../../resources/images/star03.gif" alt="image description" width="15" height="15" /></a></li>
                     </ul>
                 </div>
                 <div class="stick">
-                    <img src="images/stick-violet.png" alt="image description" width="82" height="82" />
+                    <img src="../../resources/images/stick-violet.png" alt="image description" width="82" height="82" />
                 </div>
                 <div class="hotspot"></div>
             </div>
@@ -297,16 +297,16 @@
             <span class="sub-title"><a href="#">Print</a> / <a href="#">Business Card</a></span>
             <div class="product-holder">
                 <div class="image">
-                    <a href="#"><img class="large" src="images/bg-image03.jpg" alt="image description" width="180" height="91" /></a>
+                    <a href="#"><img class="large" src="../../resources/images/bg-image03.jpg" alt="image description" width="180" height="91" /></a>
                 </div>
                 <div class="wrap">
                     <span class="price">Price: $29.00</span>
                     <ul class="stars">
-                        <li><a href="#"><img src="images/star.gif" alt="image description" width="15" height="15" /></a></li>
-                        <li><a href="#"><img src="images/star.gif" alt="image description" width="15" height="15" /></a></li>
-                        <li><a href="#"><img src="images/star02.gif" alt="image description" width="15" height="15" /></a></li>
-                        <li><a href="#"><img src="images/star03.gif" alt="image description" width="15" height="15" /></a></li>
-                        <li><a href="#"><img src="images/star03.gif" alt="image description" width="15" height="15" /></a></li>
+                        <li><a href="#"><img src="../../resources/images/star.gif" alt="image description" width="15" height="15" /></a></li>
+                        <li><a href="#"><img src="../../resources/images/star.gif" alt="image description" width="15" height="15" /></a></li>
+                        <li><a href="#"><img src="../../resources/images/star02.gif" alt="image description" width="15" height="15" /></a></li>
+                        <li><a href="#"><img src="../../resources/images/star03.gif" alt="image description" width="15" height="15" /></a></li>
+                        <li><a href="#"><img src="../../resources/images/star03.gif" alt="image description" width="15" height="15" /></a></li>
                     </ul>
                 </div>
                 <div class="hotspot"></div>
@@ -316,20 +316,20 @@
             <span class="sub-title"><a href="#">Print</a> / <a href="#">Business Card</a></span>
             <div class="product-holder">
                 <div class="image">
-                    <a href="#"><img class="large" src="images/bg-image03.jpg" alt="image description" width="180" height="91" /></a>
+                    <a href="#"><img class="large" src="../../resources/images/bg-image03.jpg" alt="image description" width="180" height="91" /></a>
                 </div>
                 <div class="wrap">
                     <span class="price">Price: $10.00</span>
                     <ul class="stars">
-                        <li><a href="#"><img src="images/star.gif" alt="image description" width="15" height="15" /></a></li>
-                        <li><a href="#"><img src="images/star.gif" alt="image description" width="15" height="15" /></a></li>
-                        <li><a href="#"><img src="images/star02.gif" alt="image description" width="15" height="15" /></a></li>
-                        <li><a href="#"><img src="images/star03.gif" alt="image description" width="15" height="15" /></a></li>
-                        <li><a href="#"><img src="images/star03.gif" alt="image description" width="15" height="15" /></a></li>
+                        <li><a href="#"><img src="../../resources/images/star.gif" alt="image description" width="15" height="15" /></a></li>
+                        <li><a href="#"><img src="../../resources/images/star.gif" alt="image description" width="15" height="15" /></a></li>
+                        <li><a href="#"><img src="../../resources/images/star02.gif" alt="image description" width="15" height="15" /></a></li>
+                        <li><a href="#"><img src="../../resources/images/star03.gif" alt="image description" width="15" height="15" /></a></li>
+                        <li><a href="#"><img src="../../resources/images/star03.gif" alt="image description" width="15" height="15" /></a></li>
                     </ul>
                 </div>
                 <div class="stick">
-                    <img src="images/stick-blue.png" alt="image description" width="82" height="82" />
+                    <img src="../../resources/images/stick-blue.png" alt="image description" width="82" height="82" />
                 </div>
                 <div class="hotspot"></div>
             </div>
@@ -338,20 +338,20 @@
             <span class="sub-title"><a href="#">Print</a> / <a href="#">Business Card</a></span>
             <div class="product-holder">
                 <div class="image">
-                    <a href="#"><img class="large" src="images/bg-image03.jpg" alt="image description" width="180" height="91" /></a>
+                    <a href="#"><img class="large" src="../../resources/images/bg-image03.jpg" alt="image description" width="180" height="91" /></a>
                 </div>
                 <div class="wrap">
                     <span class="price">Price: $20.20</span>
                     <ul class="stars">
-                        <li><a href="#"><img src="images/star.gif" alt="image description" width="15" height="15" /></a></li>
-                        <li><a href="#"><img src="images/star.gif" alt="image description" width="15" height="15" /></a></li>
-                        <li><a href="#"><img src="images/star02.gif" alt="image description" width="15" height="15" /></a></li>
-                        <li><a href="#"><img src="images/star03.gif" alt="image description" width="15" height="15" /></a></li>
-                        <li><a href="#"><img src="images/star03.gif" alt="image description" width="15" height="15" /></a></li>
+                        <li><a href="#"><img src="../../resources/images/star.gif" alt="image description" width="15" height="15" /></a></li>
+                        <li><a href="#"><img src="../../resources/images/star.gif" alt="image description" width="15" height="15" /></a></li>
+                        <li><a href="#"><img src="../../resources/images/star02.gif" alt="image description" width="15" height="15" /></a></li>
+                        <li><a href="#"><img src="../../resources/images/star03.gif" alt="image description" width="15" height="15" /></a></li>
+                        <li><a href="#"><img src="../../resources/images/star03.gif" alt="image description" width="15" height="15" /></a></li>
                     </ul>
                 </div>
                 <div class="stick">
-                    <img src="images/stick-green.png" alt="image description" width="82" height="82" />
+                    <img src="../../resources/images/stick-green.png" alt="image description" width="82" height="82" />
                 </div>
                 <div class="hotspot"></div>
             </div>
@@ -360,16 +360,16 @@
             <span class="sub-title"><a href="#">Print</a> / <a href="#">Business Card</a></span>
             <div class="product-holder">
                 <div class="image">
-                    <a href="#"><img class="large" src="images/bg-image03.jpg" alt="image description" width="180" height="91" /></a>
+                    <a href="#"><img class="large" src="../../resources/images/bg-image03.jpg" alt="image description" width="180" height="91" /></a>
                 </div>
                 <div class="wrap">
                     <span class="price">Price: $8.80</span>
                     <ul class="stars">
-                        <li><a href="#"><img src="images/star.gif" alt="image description" width="15" height="15" /></a></li>
-                        <li><a href="#"><img src="images/star.gif" alt="image description" width="15" height="15" /></a></li>
-                        <li><a href="#"><img src="images/star02.gif" alt="image description" width="15" height="15" /></a></li>
-                        <li><a href="#"><img src="images/star03.gif" alt="image description" width="15" height="15" /></a></li>
-                        <li><a href="#"><img src="images/star03.gif" alt="image description" width="15" height="15" /></a></li>
+                        <li><a href="#"><img src="../../resources/images/star.gif" alt="image description" width="15" height="15" /></a></li>
+                        <li><a href="#"><img src="../../resources/images/star.gif" alt="image description" width="15" height="15" /></a></li>
+                        <li><a href="#"><img src="../../resources/images/star02.gif" alt="image description" width="15" height="15" /></a></li>
+                        <li><a href="#"><img src="../../resources/images/star03.gif" alt="image description" width="15" height="15" /></a></li>
+                        <li><a href="#"><img src="../../resources/images/star03.gif" alt="image description" width="15" height="15" /></a></li>
                     </ul>
                 </div>
                 <div class="hotspot"></div>
@@ -379,20 +379,20 @@
             <span class="sub-title"><a href="#">Print</a> / <a href="#">Business Card</a></span>
             <div class="product-holder">
                 <div class="image">
-                    <a href="#"><img class="large" src="images/bg-image03.jpg" alt="image description" width="180" height="91" /></a>
+                    <a href="#"><img class="large" src="../../resources/images/bg-image03.jpg" alt="image description" width="180" height="91" /></a>
                 </div>
                 <div class="wrap">
                     <span class="price">Price: $29.00</span>
                     <ul class="stars">
-                        <li><a href="#"><img src="images/star.gif" alt="image description" width="15" height="15" /></a></li>
-                        <li><a href="#"><img src="images/star.gif" alt="image description" width="15" height="15" /></a></li>
-                        <li><a href="#"><img src="images/star02.gif" alt="image description" width="15" height="15" /></a></li>
-                        <li><a href="#"><img src="images/star03.gif" alt="image description" width="15" height="15" /></a></li>
-                        <li><a href="#"><img src="images/star03.gif" alt="image description" width="15" height="15" /></a></li>
+                        <li><a href="#"><img src="../../resources/images/star.gif" alt="image description" width="15" height="15" /></a></li>
+                        <li><a href="#"><img src="../../resources/images/star.gif" alt="image description" width="15" height="15" /></a></li>
+                        <li><a href="#"><img src="../../resources/images/star02.gif" alt="image description" width="15" height="15" /></a></li>
+                        <li><a href="#"><img src="../../resources/images/star03.gif" alt="image description" width="15" height="15" /></a></li>
+                        <li><a href="#"><img src="../../resources/images/star03.gif" alt="image description" width="15" height="15" /></a></li>
                     </ul>
                 </div>
                 <div class="stick">
-                    <img src="images/stick-orange.png" alt="image description" width="82" height="82" />
+                    <img src="../../resources/images/stick-orange.png" alt="image description" width="82" height="82" />
                 </div>
                 <div class="hotspot"></div>
             </div>
@@ -401,20 +401,20 @@
             <span class="sub-title"><a href="#">Print</a> / <a href="#">Business Card</a></span>
             <div class="product-holder">
                 <div class="image">
-                    <a href="#"><img class="large" src="images/bg-image03.jpg" alt="image description" width="180" height="91" /></a>
+                    <a href="#"><img class="large" src="../../resources/images/bg-image03.jpg" alt="image description" width="180" height="91" /></a>
                 </div>
                 <div class="wrap">
                     <span class="price">Price: $10.00</span>
                     <ul class="stars">
-                        <li><a href="#"><img src="images/star.gif" alt="image description" width="15" height="15" /></a></li>
-                        <li><a href="#"><img src="images/star.gif" alt="image description" width="15" height="15" /></a></li>
-                        <li><a href="#"><img src="images/star02.gif" alt="image description" width="15" height="15" /></a></li>
-                        <li><a href="#"><img src="images/star03.gif" alt="image description" width="15" height="15" /></a></li>
-                        <li><a href="#"><img src="images/star03.gif" alt="image description" width="15" height="15" /></a></li>
+                        <li><a href="#"><img src="../../resources/images/star.gif" alt="image description" width="15" height="15" /></a></li>
+                        <li><a href="#"><img src="../../resources/images/star.gif" alt="image description" width="15" height="15" /></a></li>
+                        <li><a href="#"><img src="../../resources/images/star02.gif" alt="image description" width="15" height="15" /></a></li>
+                        <li><a href="#"><img src="../../resources/images/star03.gif" alt="image description" width="15" height="15" /></a></li>
+                        <li><a href="#"><img src="../../resources/images/star03.gif" alt="image description" width="15" height="15" /></a></li>
                     </ul>
                 </div>
                 <div class="stick">
-                    <img src="images/stick-blue.png" alt="image description" width="82" height="82" />
+                    <img src="../../resources/images/stick-blue.png" alt="image description" width="82" height="82" />
                 </div>
                 <div class="hotspot"></div>
             </div>
@@ -477,7 +477,7 @@
                         <dd><a href="mailto:&#108;&#111;&#110;&#100;&#111;&#110;&#108;&#105;&#110;&#107;&#115;&#064;&#098;&#116;&#099;&#111;&#110;&#110;&#101;&#099;&#116;&#046;&#099;&#111;&#109;">&#108;&#111;&#110;&#100;&#111;&#110;&#108;&#105;&#110;&#107;&#115;&#064;&#098;&#116;&#099;&#111;&#110;&#110;&#101;&#099;&#116;&#046;&#099;&#111;&#109;</a></dd>
                     </dl>
                     <div class="map-holder">
-                        <a href="#"><img class="large" src="images/map.jpg" alt="image description" width="262" height="109" /></a>
+                        <a href="#"><img class="large" src="../../resources/images/map.jpg" alt="image description" width="262" height="109" /></a>
                     </div>
                 </div>
             </div>

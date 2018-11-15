@@ -22,7 +22,7 @@ public class AdminServlet extends HttpServlet {
         req.setAttribute("debitorList", debitorList);
 
         getServletContext()
-                .getRequestDispatcher("/WEB-INF/jsp/user.jsp")
+                .getRequestDispatcher("/WEB-INF/jsp/admin.jsp")
                 .forward(req, resp);
     }
 }
