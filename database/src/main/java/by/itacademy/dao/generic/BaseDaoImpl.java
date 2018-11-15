@@ -17,23 +17,11 @@ public class BaseDaoImpl<T extends BaseEntity> implements BaseDao<T> {
     @Autowired
     private SessionFactory sessionFactory;
 
-    //    public BaseDaoImpl() {
-//        ParameterizedType type = (ParameterizedType) getClass().getGenericSuperclass();
-//        this.modelClass = (Class<T>) type.getActualTypeArguments()[0];
-//    }
     @Autowired
     @SuppressWarnings("unchecked")
     public BaseDaoImpl() {
         this.modelClass = (Class<T>) GenericTypeResolver.resolveTypeArgument(getClass(), BaseDaoImpl.class);
     }
-
-//    protected SessionFactory sessionFactory() {
-//        return sessionFactory;
-//    }
-//
-//    protected Session getCurrentSession() {
-//        return sessionFactory.getCurrentSession();
-//    }
 
     @Override
     public Long save(T entity) {
