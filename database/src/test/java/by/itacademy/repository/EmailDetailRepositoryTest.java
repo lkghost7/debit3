@@ -7,10 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.Optional;
 
-import static org.junit.Assert.*;
 
-
-public class EmailDetailRepositoryTest extends CommonTest{
+public class EmailDetailRepositoryTest extends CommonTest {
 
     @Autowired
     private EmailDetailRepository emailDetailRepository;
