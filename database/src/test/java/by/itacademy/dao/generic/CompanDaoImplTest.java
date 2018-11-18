@@ -3,22 +3,31 @@ package by.itacademy.dao.generic;
 import by.itacademy.model.Company;
 import org.junit.Assert;
 import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.junit4.SpringRunner;
 
+import javax.transaction.Transactional;
 import java.util.List;
 
+@RunWith(SpringRunner.class)
+@ContextConfiguration(classes = ApplicationConfigurationTest.class)
+@Transactional
 public class CompanDaoImplTest {
 
-    private CompanDaoImpl dao = new CompanDaoImpl();
+    @Autowired
+    private CompanDaoImpl dao;
 
     @Test
     public void saveTest() {
         Company company = new Company();
         company.setName("Лена");
-        Long id = CompanDaoImpl.getCompanDao().save(company);
-        Company companyFromDb = CompanDaoImpl.getCompanDao().findById(id);
+        Long id = dao.save(company);
+        Company companyFromDb = dao.findById(id);
         Assert.assertEquals(company.getName(), companyFromDb.getName());
-        CompanDaoImpl.getCompanDao().delete(company);
-        Company result = CompanDaoImpl.getCompanDao().findById(id);
+        dao.delete(company);
+        Company result = dao.findById(id);
         Assert.assertNull(result);
     }
 
