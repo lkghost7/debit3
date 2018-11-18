@@ -15,11 +15,11 @@ import javax.persistence.EntityManagerFactory;
 import java.util.Properties;
 
 @Configuration
-@PropertySource("classpath:database.properties")
+@PropertySource("classpath:databaseTest.properties")
 @EnableTransactionManagement
 @EnableJpaRepositories(basePackages = "by.itacademy.repository")
 //@Import({DatabaseConfiguration.class})  если раскоментить - создать классс
-public class ApplicationConfiguration {
+public class ApplicationConfigurationTest {
 
     @Value("${hibernate.dialect}")
     private String dialect;

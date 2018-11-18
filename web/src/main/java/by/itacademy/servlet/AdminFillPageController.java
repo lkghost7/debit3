@@ -1,6 +1,5 @@
 package by.itacademy.servlet;
 
-import by.itacademy.dao.generic.DebitorDaoImpl;
 import by.itacademy.model.SystemUser;
 
 import javax.servlet.ServletException;
@@ -15,12 +14,12 @@ import java.io.IOException;
 public class AdminFillPageController extends HttpServlet {
 
 
-    @Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        req.setAttribute("systemuserList", DebitorDaoImpl.getDebitorDao().findAll());
-        req.setAttribute("myName", "Выберите категорию");
-        showPage(req, resp);
-    }
+//    @Override
+//    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+//        req.setAttribute("systemuserList", DebitorDaoImpl.getDebitorDao().findAll());
+//        req.setAttribute("myName", "Выберите категорию");
+//        showPage(req, resp);
+//    }
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

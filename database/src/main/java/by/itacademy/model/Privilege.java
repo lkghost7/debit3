@@ -26,9 +26,7 @@ public class Privilege extends BaseEntity {
         this.namePrivilege = namePrivilege;
     }
 
-
     public Privilege(Long id, String namePrivilege) {
-
         this.namePrivilege = namePrivilege;
     }
 
