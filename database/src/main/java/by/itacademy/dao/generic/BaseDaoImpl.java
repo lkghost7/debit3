@@ -1,35 +1,38 @@
 package by.itacademy.dao.generic;
 
 import by.itacademy.model.BaseEntity;
-import lombok.Cleanup;
 import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.GenericTypeResolver;
+import org.springframework.stereotype.Repository;
 
 import java.io.Serializable;
-import java.lang.reflect.ParameterizedType;
 import java.util.List;
 
-import static by.itacademy.connection.ConnectionPool.getConnection;
-
+@Repository
 public class BaseDaoImpl<T extends BaseEntity> implements BaseDao<T> {
     private final Class<T> modelClass;
 
+    @Autowired
+    private SessionFactory sessionFactory;
+
+    @Autowired
     @SuppressWarnings("unchecked")
     public BaseDaoImpl() {
-        ParameterizedType type = (ParameterizedType) getClass().getGenericSuperclass();
-        this.modelClass = (Class<T>) type.getActualTypeArguments()[0];
+        this.modelClass = (Class<T>) GenericTypeResolver.resolveTypeArgument(getClass(), BaseDaoImpl.class);
     }
 
     @Override
     public Long save(T entity) {
-        @Cleanup Session session = getConnection();
+        Session session = sessionFactory.getCurrentSession();
         Serializable id = session.save(entity);
-        session.close();
         return (Long) id;
     }
 
     @Override
     public List<T> findAll() {
-        Session session = getConnection();
+        Session session = sessionFactory.getCurrentSession();
         return session.createQuery(
                 "FROM " + modelClass.getSimpleName(), modelClass)
                 .getResultList();
@@ -37,25 +40,19 @@ public class BaseDaoImpl<T extends BaseEntity> implements BaseDao<T> {
 
     @Override
     public void delete(T entity) {
-        Session session = getConnection();
-        session.beginTransaction();
+        Session session = sessionFactory.getCurrentSession();
         session.delete(entity);
-        session.flush();
-        session.getTransaction().commit();
     }
 
     @Override
     public T findById(Long id) {
-        @Cleanup Session session = getConnection();
-        return session.find(modelClass, id);
+        Session session = sessionFactory.getCurrentSession();
+        return session.get(modelClass, id);
     }
 
     @Override
     public void update(T entity) {
-        Session session = getConnection();
-        session.beginTransaction();
-        session.update(entity);
-        session.flush();
-        session.getTransaction().commit();
+        Session session = sessionFactory.getCurrentSession();
+        session.update(modelClass.getSimpleName(), entity);
     }
 }

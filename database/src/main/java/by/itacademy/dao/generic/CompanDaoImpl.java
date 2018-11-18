@@ -1,12 +1,10 @@
 package by.itacademy.dao.generic;
 
 import by.itacademy.model.Company;
+import org.hibernate.SessionFactory;
+import org.springframework.stereotype.Repository;
 
+@Repository
 public class CompanDaoImpl extends BaseDaoImpl<Company> implements CompanDao {
 
-    private static final CompanDaoImpl INSTANCE = new CompanDaoImpl();
-
-    public static CompanDaoImpl getCompanDao() {
-        return INSTANCE;
-    }
 }

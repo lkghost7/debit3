@@ -2,10 +2,18 @@ package by.itacademy.dao.generic;
 
 import by.itacademy.model.BaseEntity;
 import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.junit4.SpringRunner;
+
+import javax.transaction.Transactional;
 
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertNull;
 
+@RunWith(SpringRunner.class)
+@ContextConfiguration(classes = ApplicationConfigurationTest.class)
+@Transactional
 public abstract class BaseDaoTest<T extends BaseEntity> {
     protected abstract BaseDao<T> getDao();
 
