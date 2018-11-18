@@ -9,12 +9,12 @@ import javax.transaction.Transactional;
 
 @Service
 @Transactional
-public class EmailDetailImpl implements EmailDetailService {
+public class EmailDetailServiceImpl implements EmailDetailService {
 
     private final EmailDetailRepository emailDetailRepository;
 
     @Autowired
-    public EmailDetailImpl(EmailDetailRepository emailDetailRepository) {
+    public EmailDetailServiceImpl(EmailDetailRepository emailDetailRepository) {
         this.emailDetailRepository = emailDetailRepository;
     }
 
