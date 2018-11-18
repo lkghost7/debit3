@@ -14,7 +14,7 @@
 
 
     <build>
-        <finalName>maven</finalName>
+        <finalName>debitor</finalName>
     </build>
     <dependencies>
         <dependency>

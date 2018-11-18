@@ -18,6 +18,12 @@
     <mapping class="by.itacademy.model.Privilege"/>
     <mapping class="by.itacademy.model.Gender"/>
     <mapping class="by.itacademy.model.Address"/>
+    <mapping class="by.itacademy.model.RegistryOfContract"/>
+    <mapping class="by.itacademy.model.Debitor"/>
+    <mapping class="by.itacademy.model.Company"/>
+    <mapping class="by.itacademy.model.Person"/>
+    <mapping class="by.itacademy.model.EmailDetail"/>
+    <!--<mapping class="by.itacademy.model.PersonEmail"/>-->
 
 
     <!-- DB schema will be updated if needed -->
