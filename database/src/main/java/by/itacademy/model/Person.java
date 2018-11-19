@@ -17,7 +17,7 @@ public class Person extends BaseEntity {
 
     private String famaly;
 
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "company_id")
     private Company company;
 
