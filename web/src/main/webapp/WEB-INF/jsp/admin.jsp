@@ -214,10 +214,10 @@
                         <img class="large" src="../../resources/images/bg-image02.gif" alt="image description" width="275" height="307" />
                     </div>
                     <div class="text-box">
-                        <h2>Synoptic is premium PSD template!</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed condimentum turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultrices condimentum vestibulum. Phasellus dictum, dolor et gravida tempor, ante enim eleifend erat, id ullamcorper eros augue in metus. </p>
-                        <p>Sed fringilla dui id ante volutpat ut pellentesque lacus semper. Duis laoreet congue consectetur. Aliquam volutpat scelerisque dui ac fringilla. Praesent et volutpat urna. Sed ipsum dolor, dapibus a ultrices a, pellentesque eget metus. Vestibulum eu nisl sed massa sodales mollis. </p>
-                        <p>Morbi posuere, mauris at tempor semper, ligula sem scelerisque turpis, ac interdum orci urna sit amet enim. Morbi posuere ultricies dapibus. Nam eget turpis in mi consequat aliquet. Phasellus a felis libero, non aliquet lorem. Praesent accumsan magna nec ipsum euismod et tempus neque auctor.</p>
+                        <h2>Летом 1943 года произошло величайшее танковое сражение в истории. </h2>
+                        <p>Летом 1943 года произошло величайшее танковое сражение в истории. В битве за город Курск, сошлись более двух миллионов солдат, шести тысяч танков и четырех тысяч  </p>
+                        <p>Летом 1943 года произошло величайшее танковое сражение в истории. В битве за город Курск, сошлись более двух миллионов солдат, шести тысяч танков и четырех тысяч  </p>
+                        <p>Летом 1943 года произошло величайшее танковое сражение в истории. В битве за город Курск, сошлись более двух миллионов солдат, шести тысяч танков и четырех тысяч </p>
                         <a href="#" class="more">прочти4</a>
                     </div>
                 </li>
