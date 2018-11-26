@@ -5,8 +5,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 public class EmailDetailServiceImplTest extends CommonServiceTest {
 
-    @Autowired
-    private EmailDetailService emailDetailService;
+//    @Autowired
+//    private EmailDetailService emailDetailService;
 
     @Test
     public void save() {
