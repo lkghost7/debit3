@@ -11,6 +11,6 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @ContextConfiguration(classes = ApplicationConfiguration.class)
 @EnableTransactionManagement
 @PropertySource("classpath:databaseTest.properties")
-public class CommonTest {
+public abstract class CommonTest {
 
 }

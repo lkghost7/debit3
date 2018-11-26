@@ -27,10 +27,10 @@ public class EmailDetailRepositoryTest extends CommonTest {
         Assert.assertEquals(emailDetail.getEmail(), emailDetailFromDB.getEmail());
         emailDetailRepository.delete(emailDetail);
     }
+
     @Test
-    public void chekFindById () {
+    public void chekFindById() {
         Iterable<EmailDetail> all = emailDetailRepository.findAll();
         System.out.println(all);
-
     }
-    }
+}
