@@ -7,9 +7,9 @@ import org.springframework.context.annotation.Import;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @Configuration
-@ComponentScan(basePackages = "by.itacademy.services")
+@ComponentScan(basePackages = "by.itacademy")
 @Import(value = {ApplicationConfiguration.class})
 @EnableTransactionManagement
-public class ServiceConfig {
+public  class ServiceConfig {
 
 }

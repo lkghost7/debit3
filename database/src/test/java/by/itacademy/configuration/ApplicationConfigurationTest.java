@@ -17,7 +17,7 @@ import java.util.Properties;
 @Configuration
 @PropertySource("classpath:databaseTest.properties")
 @EnableTransactionManagement
-@EnableJpaRepositories(basePackages = "by.itacademy.repository")
+@EnableJpaRepositories(basePackages = "by.itacademy")
 //@Import({DatabaseConfiguration.class})  если раскоментить - создать классс
 public class ApplicationConfigurationTest {
 
